@@ -1,0 +1,34 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Iterator;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+/**
+ *
+ * @author Martin
+ */
+public class IteratorTest {
+
+    public static void Test() {
+        List<String> list = new ArrayList<>();
+
+        list.add("Test1");
+        list.add("Test2");
+        list.add("Test3");
+
+        Iterator<String> iter = list.iterator();
+        while (iter.hasNext()) {
+            System.out.print(iter.next());
+            if (iter.hasNext()) {
+                System.out.print(", ");
+            } else {
+                System.out.println();
+            }
+        }
+    }
+}

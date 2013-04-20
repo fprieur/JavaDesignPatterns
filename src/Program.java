@@ -2,6 +2,9 @@
 import Command.CommandTest;
 import AbstractFactory.AbstractFactoryTest;
 import Bridge.BridgeTest;
+import Iterator.IteratorTest;
+import Observer.ObserverTest;
+import Proxy.ProxyTest;
 
 /*
  * To change this template, choose Tools | Templates
@@ -19,6 +22,9 @@ public class Program {
     public static void main(String[] args) {
         //CommandTest.Test();
         //AbstractFactoryTest.Test();
-        BridgeTest.Test();
+        //BridgeTest.Test();
+        //IteratorTest.Test();
+        //ObserverTest.Test();
+        ProxyTest.Test();
     }
 }

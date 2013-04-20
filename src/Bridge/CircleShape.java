@@ -28,6 +28,7 @@ public class CircleShape extends Shape {
         drawingAPI.drawCircle(x, y, radius);
     }
     // high-level i.e. Abstraction specific
+
     @Override
     public void resizeByPercentage(double pct) {
         radius *= pct;
