@@ -1,6 +1,7 @@
 
 import Command.CommandTest;
 import AbstractFactory.AbstractFactoryTest;
+import Bridge.BridgeTest;
 
 /*
  * To change this template, choose Tools | Templates
@@ -17,6 +18,7 @@ public class Program {
      */
     public static void main(String[] args) {
         //CommandTest.Test();
-        AbstractFactoryTest.Test();
+        //AbstractFactoryTest.Test();
+        BridgeTest.Test();
     }
 }

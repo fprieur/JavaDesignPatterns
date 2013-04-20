@@ -9,5 +9,6 @@ package AbstractFactory;
  * @author Martin
  */
 public interface GUIFactory {
+
     Button createButton();
 }
