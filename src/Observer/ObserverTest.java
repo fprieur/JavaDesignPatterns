@@ -14,6 +14,7 @@ public class ObserverTest {
         ConcreteObserver concreteObserver = new ConcreteObserver();
         Subject subject = new Subject();
         subject.addObserver(concreteObserver);
-        subject.DoSomething();
+        System.out.println("Changing something to Subject.");
+        subject.ChangeSomething();
     }
 }

@@ -4,10 +4,12 @@
  */
 package Iterator;
 
+//import java.util.ArrayList;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 
+//import java.util.Iterator;
+//import java.util.List;
 /**
  *
  * @author Martin
@@ -15,7 +17,7 @@ import java.util.List;
 public class IteratorTest {
 
     public static void Test() {
-        List<String> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
 
         list.add("Test1");
         list.add("Test2");

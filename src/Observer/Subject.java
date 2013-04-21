@@ -4,15 +4,13 @@
  */
 package Observer;
 
-import java.util.Observable;
-
 /**
  *
  * @author Martin
  */
 public class Subject extends Observable {
 
-    public void DoSomething() {
+    public void ChangeSomething() {
         this.setChanged();
         this.notifyObservers();
     }
