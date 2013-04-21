@@ -1,14 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Command;
 
-/**
- *
- * @author Martin
- */
-/* The Receiver class */
 public class Light {
 
     public Light() {

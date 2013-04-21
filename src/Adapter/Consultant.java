@@ -1,14 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Adapter;
 
-/**
- *
- * @author Martin
- */
-//existing class does not need to be changed
 public class Consultant {
 
     private String name;

@@ -1,19 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Iterator;
 
-//import java.util.ArrayList;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-//import java.util.Iterator;
-//import java.util.List;
-/**
- *
- * @author Martin
- */
 public class IteratorTest {
 
     public static void Test() {

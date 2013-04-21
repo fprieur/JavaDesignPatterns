@@ -1,16 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Strategy;
 
-/**
- *
- * @author Martin
- */
-/**
- * Implements the algorithm using the strategy interface
- */
 public class Add implements Strategy {
 
     @Override

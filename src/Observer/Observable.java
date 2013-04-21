@@ -1,16 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Martin
- */
 public abstract class Observable {
 
     private List<Observer> observers;

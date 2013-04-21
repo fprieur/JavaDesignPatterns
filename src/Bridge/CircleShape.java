@@ -1,16 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Bridge;
 
-/**
- *
- * @author Martin
- */
-/**
- * "Refined Abstraction"
- */
 public class CircleShape extends Shape {
 
     private double x, y, radius;
@@ -27,8 +16,8 @@ public class CircleShape extends Shape {
     public void draw() {
         drawingAPI.drawCircle(x, y, radius);
     }
+    
     // high-level i.e. Abstraction specific
-
     @Override
     public void resizeByPercentage(double pct) {
         radius *= pct;

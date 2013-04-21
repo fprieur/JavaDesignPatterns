@@ -1,19 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Composite;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Martin
- */
-/**
- * "Composite"
- */
 class CompositeGraphic extends Graphic {
 
     //Collection of child graphics.

@@ -1,22 +1,14 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Command;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Martin
- */
-/* The Invoker class */
 public class Switch {
 
-    private List<Command> history = new ArrayList<Command>();
+    private List<Command> history;
 
     public Switch() {
+        this.history = new ArrayList<>();
     }
 
     public void storeAndExecute(Command cmd) {
